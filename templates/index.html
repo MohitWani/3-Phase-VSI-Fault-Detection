@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+        <title>Fault Diagnosis in 3 phase VSI</title>
+
+        <link href="{{ url_for('static', filename='images/logo1.png') }}" rel="icon">
+        <link rel="stylesheet" href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='vendor/bootstrap-icons/bootstrap-icons.css') }}" >
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        
+
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+
+    </head>
+    <body>
+        <header id="header" class="fixed-top d-flex align-items-center">
+            <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between"> 
+                <a href="#" class="logo me-auto me-lg-0"><img src="static/images/logo.png" alt="sf"> 
+
+                <nav id="navbar" class="navbar order-last order-lg-0">
+
+                    <ul>
+                
+                        <li><a class="nav-link scrollto " href="#hero">Home</a></li>
+                
+                        <li><a class="nav-link scrollto" href="#about">About</a></li>
+                
+                        <li><a class="nav-link scrollto" href="#project">Project</a></li>
+                
+                        <li><a class="nav-link scrollto" href="#gallery">Analysis</a></li>
+                
+                        <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+                
+                    </ul>
+                      
+                </nav>
+                </a>  
+
+                
+                <i class="bi bi-list mobile-nav-toggle"> </i> 
+                <a href="#predict" class="book-a-table-btn scrollto d-none d-lg-flex">Make Predictions</a>
+            </div> 
+        </header>
+
+        
+
+        <main id="main">
+
+                <!-- ======= Home Section ======= -->
+            <section id="hero" class="d-flex align-items-center"> 
+
+                <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100"> 
+
+            <div class="row"> 
+                <div class="col-lg-8"> 
+                <h1>Welcome to <span>Our Project</span></h1> 
+
+                <h2>"Empowering Predictive Maintenance for a Smarter, More Efficient Future."</h2> 
+
+                <div class="btns"> 
+
+                <a href="#project" class="btn-menu animated fadeInUp scrollto">Project Info</a> 
+
+                <a href="#predict" class="btn-book animated fadeInUp scrollto">Make Predictions</a>
+                </div>
+            </div>
+            </div> </div></section>
+            <!-- End of Home Section -->
+            
+        </main>
+
+        <!-- ======= About Section ======= --> 
+
+    <section id="about" class="about"> 
+
+        <div class="container" data-aos="fade-up"> 
+  
+          <div class="section-title"> 
+  
+            <h3>About</h3> 
+  
+            <p>About Us</p> 
+  
+          </div> 
+  
+          <div class="row gy-4"> 
+  
+            <div class="col-lg-7 position-relative about-img" style="background-image: url(static/images/about.jpeg);" 
+  
+              data-aos="fade-up" data-aos-delay="150"> 
+  
+              <div class="call-us position-absolute"> 
+  
+                <h2>About Team</h2> 
+  
+              </div> 
+  
+            </div> 
+  
+            <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300" 
+  
+              style="background-color:#cda45e; color:white;"> 
+  
+              <div class="content ps-0 ps-lg-5"> 
+  
+                <p style="font-size: 18px; padding:10px;"> 
+
+                  We are a group of final-year students from AISSMS IOIT, passionate about leveraging technology to solve real-world problems. 
+                  Our project, a predictive maintenance Flask website for fault diagnosis in three-phase Voltage Source Inverters (VSI), is the culmination of our academic journey.
+                  Guided by our esteemed mentor DR.R.B.Dhumale, we have developed a solution that utilizes advanced algorithms to predict potential faults, 
+                  ensuring timely maintenance and minimizing downtime. Through this project, we aim to contribute to the field of industrial automation and enhance operational efficiency. 
+  
+                </p> 
+  
+              </div> 
+  
+            </div> 
+  
+            <hr> 
+  
+            <div class="row gy-4"> 
+  
+              <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300" 
+  
+                style="background-color:#cda45e; color:white;"> 
+  
+                <div class="content ps-0 ps-lg-5"> 
+  
+                  <p style="font-size: 18px; padding:10px;"> 
+  
+                    We have developed a predictive maintenance Flask website designed for fault diagnosis in three-phase Voltage Source Inverters (VSI). 
+                    This platform leverages advanced algorithms to predict potential faults, ensuring timely maintenance and minimizing downtime. 
+                    With an intuitive interface and real-time analytics, it empowers users to maintain 
+                    optimal operational efficiency in industrial applications. <br><br>
+                    <a href="#project" style="color: rgb(220, 80, 80);">know more...</a> 
+  
+                  </p> 
+  
+                </div> 
+  
+              </div> 
+  
+              <div class="col-lg-7 position-relative about-img" style="background-image: url(static/images/project.jpeg) ;" 
+  
+                data-aos="fade-up" data-aos-delay="150"> 
+  
+                <div class="call-us position-absolute"> 
+  
+                  <h2>Our Project</h2> 
+  
+                </div> 
+  
+              </div> 
+  
+            </div> 
+  
+            <hr> 
+  
+            <div class="col-lg-7 position-relative about-img" style="background-image: url(static/images/guide.jpeg);" 
+  
+            data-aos="fade-up" data-aos-delay="150"> 
+
+            <div class="call-us position-absolute"> 
+
+              <h2>Guide </h2> 
+
+            </div> 
+
+          </div> 
+
+          <div class="col-lg-5 d-flex align-items-end" data-aos="fade-up" data-aos-delay="300" 
+
+            style="background-color:#cda45e; color:white;"> 
+
+            <div class="content ps-0 ps-lg-5"> 
+
+              <p style="font-size: 18px; padding:10px;"> 
+
+
+                We would like to express our sincere gratitude to our guide, DR.R.B.Dhumale, 
+                whose invaluable support, guidance, and expertise have been instrumental in the successful completion of our project. 
+                Their insights and encouragement have significantly contributed to our learning and the development of this predictive maintenance solution. 
+                Thank you for inspiring us and helping us achieve our goals. <br><br>
+                <a href="#project" style="color: rgb(220, 80, 80);">know more...</a> 
+              </p> 
+
+            </div> 
+
+          </div> 
+    
+  
+        </div>  
+  
+    </section> 
+
+      <!-- ======= project Information Section ======= -->
+
+        <section id="project" class="menu">
+
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+
+                    <h3>Project</h3>
+
+                    <p>Project <span>Information</span></p>
+
+                </div>
+
+            </div>
+
+            <div class="container mt-5">
+
+              <ul class="nav nav-tabs custom-tabs flex-column flex-sm-row justify-content-center" id="galleryTabs"
+                  role="tablist">
+
+                  <li class="nav-item">
+
+                      <a class="nav-link active" id="all-tab" data-toggle="tab" href="#all" role="tab" aria-controls="all"
+                          aria-selected="true">All Documents</a>
+
+                  </li>
+
+                  <li class="nav-item">
+
+                      <a class="nav-link" id="research-tab" data-toggle="tab" href="#research" role="tab"
+                          aria-controls="research" aria-selected="false">Research Paper</a>
+
+                  </li>
+
+                  <li class="nav-item">
+
+                      <a class="nav-link" id="report-tab" data-toggle="tab" href="#report" role="tab" aria-controls="report"
+                          aria-selected="false">Reports</a>
+
+                  </li>
+
+                  <li class="nav-item">
+
+                      <a class="nav-link" id="ppt-tab" data-toggle="tab" href="#ppt" role="tab" aria-controls="ppt"
+                          aria-selected="false">PPT</a>
+
+                  </li>
+
+              </ul>
+
+              <div class="tab-content mt-3" id="galleryTabContent">
+
+                  <div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
+
+                      <div class="row">
+
+                          <div class="col-lg-6 menu-item filter-all">
+
+                              <div class="menu-content">
+
+                                  <a href="static/documents/ProjectVSIFaultsFinal.docx">Research Paper</a>
+
+                              </div>
+
+                              <div class="menu-ingredients">
+
+                                  Paper created by our team.
+
+                              </div>
+
+                          </div>
+
+                          <div class="col-lg-6 menu-item filter-all">
+
+                              <div class="menu-content">
+
+                                  <a href="static/documents/projectPoster.pptx">Project Poster</a>
+
+                              </div>
+
+                              <div class="menu-ingredients">
+
+                                  Poster created by our team.
+
+                              </div>
+
+                          </div>
+
+                          <div class="col-lg-6 menu-item filter-all">
+
+                              <div class="menu-content">
+
+                                  <a href="static/documents/ProjectStageone.pdf">Project Stage-I Report</a>
+
+                              </div>
+
+                              <div class="menu-ingredients">
+
+                                  Report created by our team.
+
+                              </div>
+
+                          </div>
+
+                      </div>
+
+                  </div>
+
+                  <div class="tab-pane fade" id="research" role="tabpanel" aria-labelledby="research-tab">
+
+                      <div class="row">
+
+                          <div class="col-lg-6 menu-item filter-research">
+
+                              <div class="menu-content">
+
+                                <a href="static/documents/ProjectVSIFaultsFinal.docx">Research Paper</a>
+
+                              </div>
+
+                              <div class="menu-ingredients">
+
+                                Paper created by our team.
+
+                              </div>
+
+                          </div>
+
+                      </div>
+
+                  </div>
+
+                  <div class="tab-pane fade" id="report" role="tabpanel" aria-labelledby="report-tab">
+
+                      <div class="row">
+
+                          <div class="col-lg-6 menu-item filter-report">
+
+                              <div class="menu-content">
+
+                                <a href="static/documents/ProjectStageone.pdf">Project Stage-I Report</a>
+
+                              </div>
+
+                              <div class="menu-ingredients">
+
+                                Report created by our team.
+
+                              </div>
+
+                          </div>
+
+                      </div>
+
+                  </div>
+
+                  <div class="tab-pane fade" id="ppt" role="tabpanel" aria-labelledby="ppt-tab">
+
+                      <div class="row">
+
+                          <div class="col-lg-6 menu-item filter-ppt">
+
+                              <div class="menu-content">
+
+                                <a href="static/documents/projectPoster.pptx">Project Poster</a>
+
+                              </div>
+
+                              <div class="menu-ingredients">
+
+                                Poster created by our team
+                              </div>
+
+                          </div>
+
+
+                      </div>
+
+                  </div>
+
+
+              </div>
+
+          </div>
+
+        </section>
+
+
+    <!-- End of Projection INFO Section -->
+
+     <!-- ======= Make A Prediction Section ======= --> 
+
+    <section id="predict" class="predict"> 
+
+        <div class="container" data-aos="fade-up"> 
+
+        <div class="section-title"> 
+
+            <h3>Prediction</h3> 
+
+            <p>Make a Prediction</p> 
+
+        </div> 
+
+        <div class="container mt-5">
+          <div class="row justify-content-center">
+              <div class="col-md-6">
+                  <div class="card">
+                      
+                      <div class="card-body">
+                          <form class="php-email-form" role="form" action="#" method="post" enctype="multipart/form-data">
+                              <div class="form-group">
+                                  <label for="excelFile"><b>Choose Excel File:</b></label><br>
+                                  <input type="file" id="excelFile" name="file" accept=".xls, .xlsx" required>
+                              </div><br>
+
+                              <div class="text-center"><button type="submit" >PREDICT</button> 
+                
+                              </div> 
+                          </form>
+                      </div>
+                  </div><hr>
+                  <B>Result</B><div class="card" id="predictionResult"><h2>{{ message }}</h2></div>
+              </div>
+          </div>
+      </div>
+
+    </section> 
+
+    <!-- End Prediction Section --> 
+
+    <!-- ======= Analysis Section ======= -->
+    <section id="gallery" class="gallery">
+
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h3>Analysis</h3>
+            <p>Analysis of Data</p>
+          </div>
+        </div>
+  
+        <div class="container mt-5">
+          <ul class="nav nav-tabs custom-tabs" id="galleryTabs" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="food-tab" data-toggle="tab" href="#food" role="tab" aria-controls="food"
+                aria-selected="true">Statistical</a>
+            </li>
+            
+          </ul>
+  
+          <div class="tab-content mt-2" id="galleryTabContent">
+            <div class="tab-pane fade show active" id="food" role="tabpanel" aria-labelledby="food-tab">
+              <div class="row">
+                {% if plot_url %}
+                  <div class="plot-container">
+                    <iframe class="iframe" src="{{ plot_url }}" frameborder="0"></iframe>
+                  </div><hr>
+                  <div class="col-md-4">
+                    <img src="{{ plot_iqid }}" alt="Plot">
+                  </div>
+                  &nbsp;&nbsp;&nbsp;&nbsp;
+                  <div class="col-md-4">
+                    <img src="{{ plot }}" alt="Plot">
+                  </div>
+                {% endif %}
+                
+              </div>
+  
+              <hr>
+          </div>
+        </div>
+  
+      </section>
+      
+      <!-- End Analysis Section -->
+
+      <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+  
+          <div class="section-title">
+            <h3>Contact</h3>
+            <p>Contact Us</p>
+          </div>
+        </div>
+  
+        <div data-aos="fade-up">
+          <!-- Insert the URL of the restaurant's location that you prefer. -->
+          <iframe style="border:0; width: 100%; height: 350px;"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7565.899620464904!2d73.86157122149028!3d18.53117006375057!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c0f555bf965d%3A0x4dbf1000c873a42d!2sAISSMS%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1706159685406!5m2!1sen!2sin"
+            frameborder="0" allowfullscreen></iframe>
+        </div>
+  
+        <div class="container" data-aos="fade-up">
+  
+          <div class="row mt-5">
+  
+            <div class="col-lg-4">
+              <div class="info">
+                <div class="email">
+                  <i class="bi bi-envelope-at-fill"></i>
+                  <h4>Email:</h4>
+                  <p><a href="wanimohit1@gmail.com" style="color: rgb(187, 187, 153);">wanimohit1@gmail.com</a></p>
+                </div>
+  
+                <div class="phone">
+                  <i class="bi bi-telephone-inbound-fill"></i>
+                  <h4>Phone:</h4>
+                  <p>+91-9325227949</p>
+                </div>
+  
+              </div>
+  
+            </div>
+  
+            <div class="col-lg-8 mt-5 mt-lg-0">
+  
+              <form class="php-email-form">
+                <div class="row">
+                  <div class="col-md-6 form-group">
+                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  </div>
+                  <div class="col-md-6 form-group mt-3 mt-md-0">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  </div>
+                </div>
+                <div class="form-group mt-3">
+                  <textarea class="form-control" name="message" rows="8" placeholder="Feedback" required></textarea>
+                </div>
+  
+                <div class="text-center"><button type="submit" onclick="showAlert('Thank you for your Feedback!')">Send
+                    Feedback</button></div>
+              </form>
+  
+            </div>
+  
+          </div>
+  
+        </div>
+      </section>
+      <!-- End Contact Section -->
+
+      <!-- ======= Footer ======= --> 
+
+        <footer id="footer"> 
+
+            <div class="footer-top"> 
+
+            <div class="container"> 
+
+                <div class="row"> 
+
+                <div class="col-lg-6 col-md-6"> 
+
+                    <div class="footer-info"> 
+
+                    <h2>Follow us</h2> 
+
+                    <div class="social-links mt-3"> 
+
+                        <a href="https://www.linkedin.com/in/mohit-wani-6310711a0/" target="_blank"> <i class="bi bi-linkedin"></i></a> 
+
+                        <a href="https://github.com/MohitWani/3-Phase-VSI-Fault-Detection" target="_blank"><i class="bi bi-github"></i></a> 
+
+                    </div> 
+
+                    </div> 
+
+                </div> 
+
+                <div class="col-lg-6 col-md-6 footer-links"> 
+
+                    <h5>Useful Links</h5> 
+
+                    <ul> 
+
+                    <li> <a href="#hero">Home</a></li> 
+
+                    <li> <a href="#about">About us</a></li> 
+
+                    <li> <a href="#contact">Contact</a></li> 
+
+                    </ul> 
+
+                </div> 
+
+                </div> 
+
+            </div> 
+
+            </div> 
+
+        </footer> 
+
+      
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </body>
+</html>
