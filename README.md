@@ -24,4 +24,15 @@
     First, clone the repository from GitHub to your local machine:
 
    ```bash
-   git clone https://github.com/MohitWani/ScholarQuery.git
+   git clone https://github.com/MohitWani/3-Phase-VSI-Fault-Detection.git
+
+2. **Navigate to the Project Directory**
+
+    ```bash
+    cd your-repository
+ 
+3. **Create a Virtual Environment**
+
+    ```bash
+    python -m venv env
+    env\Scripts\activate
