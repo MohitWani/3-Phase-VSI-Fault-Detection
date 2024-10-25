@@ -1,7 +1,7 @@
 # FAULT DIAGNOSIS IN 3 PHASE VOLTAGE SOURCE INVERTER (VSI).
 
 
-![Project Screenshot](.\static\images\project poster.png)
+![Project Screenshot](./static/images/project poster.png)
 
 > **Note**: This image is for demonstration purposes only and may be subject to copyright. Unauthorized use, reproduction, or distribution is prohibited. Please ensure that you have the right to use any images in your own projects.
 ## Overview
