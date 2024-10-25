@@ -6,7 +6,9 @@
 > **Note**: This image is for demonstration purposes only and may be subject to copyright. Unauthorized use, reproduction, or distribution is prohibited. Please ensure that you have the right to use any images in your own projects.
 
 ## Overview
-    This study addresses the diagnosis of Open Switch Faults (OSFs) in Three-Phase Voltage Source Inverters employed across diverse industrial settings. OSFs in switching devices can significantly impair the performance and reliability of power electronic converters, leading to costly downtimes and potential safety risks, underscoring the critical role of maintenance. 
+
+This study addresses the diagnosis of Open Switch Faults (OSFs) in Three-Phase Voltage Source Inverters employed across diverse industrial settings. OSFs in switching devices can significantly impair the performance and reliability of power electronic converters, leading to costly downtimes and potential safety risks, underscoring the critical role of maintenance. 
+
 ### Key Features.
 
 ### Technology used.
