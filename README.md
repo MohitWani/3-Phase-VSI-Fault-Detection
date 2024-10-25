@@ -17,12 +17,14 @@ This study addresses the diagnosis of Open Switch Faults (OSFs) in Three-Phase V
 
 ## Installation
 
-    Follow these steps to install and run the project locally:
+Follow these steps to install and run the project locally:
 
 ### Prerequisites
 
-    Ensure that the following are installed on your system:
-
+Ensure that the following are installed on your system:
+- **Python 3.8+**: You can download it from [Python's official website](https://www.python.org/downloads/).
+- **pip**: Python package installer (comes with Python).
+- **git**: For cloning the repository (optional).
 
 ### Steps to Install
 
