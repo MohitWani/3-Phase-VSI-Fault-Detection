@@ -38,7 +38,7 @@ Ensure that the following are installed on your system:
 2. **Navigate to the Project Directory**
 
     ```bash
-    cd your-repository
+    cd 3-Phase-VSI-Fault-Detection
  
 3. **Create a Virtual Environment**
 
